@@ -40,8 +40,8 @@
 
 <table align="center">
 <tr>
-<td align="center" width="25%"><h1>6,346</h1><b>employers</b><br><sub>watched on their own career pages</sub></td>
-<td align="center" width="25%"><h1>10,965</h1><b>open roles</b><br><sub>one card each, no reposts</sub></td>
+<td align="center" width="25%"><h1>6,583</h1><b>employers</b><br><sub>watched on their own career pages</sub></td>
+<td align="center" width="25%"><h1>11,086</h1><b>open roles</b><br><sub>one card each, no reposts</sub></td>
 <td align="center" width="25%"><h1>13,089</h1><b>visa sponsors</b><br><sub>matched to the NL IND register</sub></td>
 <td align="center" width="25%"><h1>11</h1><b>AI providers</b><br><sub>Ollama, Claude, OpenAI, Groq…</sub></td>
 </tr>
