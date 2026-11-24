@@ -1,5 +1,5 @@
 name: career_tracker
-description: "NL Career Tracker - Netherlands tech jobs, alerts and market insight."
+description: "AI Career Tracker - jobs from employers and job boards, ranked for you, with a pipeline, CV tools and an AI inbox."
 publish_to: 'none'
 version: 2.0.0+1
 

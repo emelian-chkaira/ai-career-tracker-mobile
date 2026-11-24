@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         child: ValueListenableBuilder<ThemeMode>(
           valueListenable: ThemeController.instance,
           builder: (_, mode, _) => MaterialApp(
-            title: 'NL Career Tracker',
+            title: 'AI Career Tracker',
             debugShowCheckedModeBanner: false,
             theme: appTheme(),
             darkTheme: appTheme(Brightness.dark),
