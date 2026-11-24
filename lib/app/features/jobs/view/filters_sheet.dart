@@ -66,7 +66,7 @@ class _FiltersSheetState extends State<_FiltersSheet> {
             _group('Language', 'language', f.language, (l) => f.copyWith(language: l), pretty: true),
             _group('Skills', 'skills', f.skills, (l) => f.copyWith(skills: l)),
             SwitchListTile(contentPadding: EdgeInsets.zero, title: const Text('Remote friendly'), value: f.remote == true, onChanged: (v) => setState(() => f = f.copyWith(remote: v ? true : null))),
-            SwitchListTile(contentPadding: EdgeInsets.zero, title: const Text('Recognised IND sponsors only'), value: f.sponsor == true, onChanged: (v) => setState(() => f = f.copyWith(sponsor: v ? true : null))),
+            SwitchListTile(contentPadding: EdgeInsets.zero, title: const Text('Recognised NL IND sponsors only'), value: f.sponsor == true, onChanged: (v) => setState(() => f = f.copyWith(sponsor: v ? true : null))),
             DropdownButtonFormField<int?>(
               key: ValueKey('days-${f.days}'),
               initialValue: f.days,

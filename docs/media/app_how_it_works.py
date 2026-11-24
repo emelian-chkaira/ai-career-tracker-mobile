@@ -30,7 +30,7 @@ chip(380, 640, "all of it inside the Dio interceptor, no screen code", "#cffafe"
 card(740, 220, 640, 470, BR, "#fffbeb", "②  Find a job and save it", BR)
 y = 320
 node(840, y, "🔎", "Search", BR, ("keyword · meaning", "or both together"))
-node(1060, y, "🎛️", "Filters", BR, ("sort · posted date", "remote · IND sponsor"))
+node(1060, y, "🎛️", "Filters", BR, ("sort · posted date", "remote · NL IND sponsor"))
 node(1280, y, "📋", "Results", BR, ("paged list, Jobs or", "Internships switch"))
 node(1280, 520, "📄", "Job detail", GR, ("sponsor + salary badges", "English ok / Dutch required"))
 node(1060, 520, "🗂️", "Pipeline", BL, ("saved → applied →", "interview → offer"))

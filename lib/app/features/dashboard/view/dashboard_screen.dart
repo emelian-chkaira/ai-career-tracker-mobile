@@ -50,7 +50,7 @@ class _Content extends StatelessWidget {
         _Kpi('New this week', '${k['new_7d']?.toInt() ?? 0}', sub: wow == null ? null : '${wow >= 0 ? '▲' : '▼'} ${wow.abs()}% vs last week'),
         _Kpi('Internships', '${k['internships']?.toInt() ?? 0}'),
         _Kpi('Remote friendly', '${k['remote_jobs']?.toInt() ?? 0}'),
-        _Kpi('At IND sponsors', '${k['sponsor_jobs']?.toInt() ?? 0}'),
+        _Kpi('At NL IND sponsors', '${k['sponsor_jobs']?.toInt() ?? 0}'),
       ]),
       const SizedBox(height: 12),
       _Card('New postings per day (peak ${d.daily.fold<int>(0, (m, e) => e.n > m ? e.n : m)})', SizedBox(height: 160, child: _DailyChart(d.daily))),

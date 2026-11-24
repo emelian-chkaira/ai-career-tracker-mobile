@@ -78,7 +78,7 @@ class _JobDetailScreenState extends State<JobDetailScreen> {
                         ]),
                         const SizedBox(height: 12),
                         Wrap(spacing: 6, runSpacing: 6, children: [
-                          if (j.company.sponsor) const Pill('IND sponsor', color: Color(0xFF0E8A5F)),
+                          if (j.company.sponsor) const Pill('NL IND sponsor', color: Color(0xFF0E8A5F)),
                           Pill(label(j.jobType)),
                           if (j.language != 'unknown') Pill(label(j.language)),
                           if (j.remote) const Pill('Remote friendly'),

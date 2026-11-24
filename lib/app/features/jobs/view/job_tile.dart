@@ -61,7 +61,7 @@ class JobTile extends StatelessWidget {
                   Wrap(spacing: 6, runSpacing: 5, children: [
                     if (_isNew(job.date)) const Pill('New', color: Colors.green),
                     Pill(label(job.jobType)),
-                    if (job.company.sponsor) const Pill('IND sponsor', color: Color(0xFF0E8A5F)),
+                    if (job.company.sponsor) const Pill('NL IND sponsor', color: Color(0xFF0E8A5F)),
                     if (job.stage != null) Pill(label(job.stage!), color: Colors.orange),
                     if (job.fit != null) Pill('${job.fit}% fit', color: Colors.teal),
                     ...job.skills.take(2).map((e) => Pill(e, outlined: true)),

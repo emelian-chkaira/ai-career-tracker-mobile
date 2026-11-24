@@ -14,7 +14,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/🎯_real,_current_roles_only-16a34a?style=flat-square" alt="Real current roles">
   <img src="https://img.shields.io/badge/🎓_jobs_+_internships_one_switch-ea580c?style=flat-square" alt="Jobs and internships">
-  <img src="https://img.shields.io/badge/🛂_IND_sponsor_badges-0891b2?style=flat-square" alt="IND sponsor badges">
+  <img src="https://img.shields.io/badge/🛂_IND_sponsor_badges-0891b2?style=flat-square" alt="NL IND sponsor badges">
   <img src="https://img.shields.io/badge/📄_CV_tailoring_+_cover_letter-db2777?style=flat-square" alt="CV tailoring">
   <img src="https://img.shields.io/badge/📬_AI_reads_your_mail-dc2626?style=flat-square" alt="AI inbox">
   <img src="https://img.shields.io/badge/🔒_tokens_in_the_keychain-7c3aed?style=flat-square" alt="Keychain">
@@ -30,7 +30,7 @@
   <img src="https://img.shields.io/badge/Backend-FastAPI_%2B_PostgreSQL-009688?logo=fastapi&logoColor=white" alt="Backend">
 </p>
 
-<p align="center">The mobile client of <b><a href="https://github.com/emelian-chkaira/nl-career-tracker">AI Career Tracker</a></b>. Same API, same plain warm design as the web app.</p>
+<p align="center">The mobile client of <b><a href="https://github.com/emelian-chkaira/ai-career-tracker">AI Career Tracker</a></b>. Same API, same plain warm design as the web app.</p>
 
 <p align="center"><b><a href="#-quick-start">Quick start</a></b> · <b><a href="#-the-app-in-four-screens">Screens</a></b> · <b><a href="#-what-you-can-do">Features</a></b> · <b><a href="#-architecture">Architecture</a></b> · <b><a href="#-technology">Technology</a></b> · <b><a href="#-run-it">Run it</a></b></p>
 
@@ -42,12 +42,12 @@
 <tr>
 <td align="center" width="25%"><h1>6,346</h1><b>employers</b><br><sub>watched on their own career pages</sub></td>
 <td align="center" width="25%"><h1>10,965</h1><b>open roles</b><br><sub>one card each, no reposts</sub></td>
-<td align="center" width="25%"><h1>13,089</h1><b>visa sponsors</b><br><sub>matched to the IND register</sub></td>
+<td align="center" width="25%"><h1>13,089</h1><b>visa sponsors</b><br><sub>matched to the NL IND register</sub></td>
 <td align="center" width="25%"><h1>11</h1><b>AI providers</b><br><sub>Ollama, Claude, OpenAI, Groq…</sub></td>
 </tr>
 </table>
 
-<sub>Live numbers from the shared backend's development database at the time of writing. The app shows them; the <a href="https://github.com/emelian-chkaira/nl-career-tracker">web repo</a> produces them.</sub>
+<sub>Live numbers from the shared backend's development database at the time of writing. The app shows them; the <a href="https://github.com/emelian-chkaira/ai-career-tracker">web repo</a> produces them.</sub>
 
 ## 🖼️ The app in four screens
 
@@ -64,11 +64,11 @@
 
 ## ⚡ Quick start
 
-The backend has a one-click installer that also loads ready-made data (companies, open listings, the IND sponsor register):
+The backend has a one-click installer that also loads ready-made data (companies, open listings, the NL IND sponsor register):
 
 ```bash
-git clone https://github.com/emelian-chkaira/nl-career-tracker.git
-cd nl-career-tracker && ./setup.sh          # API on http://localhost:8787
+git clone https://github.com/emelian-chkaira/ai-career-tracker.git
+cd ai-career-tracker && ./setup.sh          # API on http://localhost:8787
 ```
 
 Then, in this repo:
@@ -83,7 +83,7 @@ flutter run --dart-define=API_URL=http://localhost:8787
 | | |
 |---|---|
 | 🎯 **Only real, current roles** | Every listing comes from the employer's own careers page (or a job board you opted into), folded to one card per role, so there is nothing to wade through. |
-| 🛂 **Built for people moving to the Netherlands** | IND-sponsor badges, "English OK / Dutch required", salary checks. |
+| 🛂 **Built for people moving to the Netherlands** | NL IND-sponsor badges, "English OK / Dutch required", salary checks. |
 | 🗂 **One place for the whole search** | Jobs and internships behind a single switch; pipeline and Gmail inbox together under **My search**, alerts one tap away. |
 | 📬 **Your inbox, sorted** | Interview invites, tests, offers and rejections found in Gmail (read-only) and linked to your pipeline. |
 | 🔒 **Private by design** | Self-hosted backend, tokens in the system keychain, no tracking. |
@@ -93,9 +93,9 @@ flutter run --dart-define=API_URL=http://localhost:8787
 
 | | |
 |---|---|
-| 🔎 **Search** | One search box with the same engine as the web (keyword, meaning, or both together), quick-chips and a filters sheet: sort, posted date, remote-friendly, IND sponsors only. |
+| 🔎 **Search** | One search box with the same engine as the web (keyword, meaning, or both together), quick-chips and a filters sheet: sort, posted date, remote-friendly, NL IND sponsors only. |
 | 🎓 **Jobs / Internships** | A switch at the top of the first tab. |
-| 🛂 **Sponsor and language badges** | IND-sponsor status per employer; "Dutch required" / "English ok" per posting. |
+| 🛂 **Sponsor and language badges** | NL IND-sponsor status per employer; "Dutch required" / "English ok" per posting. |
 | 📊 **Market** | KPI tiles, postings per day, top cities and companies, contract types, skill demand (`fl_chart`). |
 | 🗂 **My search** | Two tabs: **Pipeline** (saved → applied → interview → offer, with notes) and **Inbox**. The bell in the header opens your saved searches and alerts. |
 | 📬 **Inbox** | The events found in your Gmail (applications, interviews, tests, offers, rejections): accept or dismiss them, and start a sync. Connecting Gmail and choosing the AI model that reads your mail are done once on the web. |
@@ -150,7 +150,7 @@ Every screen has a **loading / loaded / failed** state with a *Try again* action
 | **Links and files** | url_launcher · file_picker · path_provider · share_plus |
 | **Logging** | talker: readable network logs |
 | **Quality** | flutter_lints · `flutter analyze` · unit tests · GitHub Actions CI |
-| **Backend behind it** | Python · FastAPI · PostgreSQL 16 + pgvector · Playwright crawler · Gmail API · Docker, see the [web repo](https://github.com/emelian-chkaira/nl-career-tracker) |
+| **Backend behind it** | Python · FastAPI · PostgreSQL 16 + pgvector · Playwright crawler · Gmail API · Docker, see the [web repo](https://github.com/emelian-chkaira/ai-career-tracker) |
 
 ## 🏅 Highlights
 
@@ -172,12 +172,12 @@ flutter run --dart-define=API_URL=http://localhost:8787
 | Android emulator | `http://10.0.2.2:8787` |
 | Real phone | your computer's LAN IP, or your deployed `https://…` URL |
 
-The API comes from the [web repo](https://github.com/emelian-chkaira/nl-career-tracker). Its one-click installer (`./setup.sh`) starts everything and loads ready-made data, so the app has jobs to show the first time you open it.
+The API comes from the [web repo](https://github.com/emelian-chkaira/ai-career-tracker). Its one-click installer (`./setup.sh`) starts everything and loads ready-made data, so the app has jobs to show the first time you open it.
 
 <details>
 <summary><b>Sign in with Google (optional)</b></summary>
 
-1. Set up Firebase and the OAuth clients as described in the backend repo's [`docs/FIREBASE.md`](https://github.com/emelian-chkaira/nl-career-tracker/blob/main/docs/FIREBASE.md).
+1. Set up Firebase and the OAuth clients as described in the backend repo's [`docs/FIREBASE.md`](https://github.com/emelian-chkaira/ai-career-tracker/blob/main/docs/FIREBASE.md).
 2. iOS: add the reversed client ID as a URL scheme in `ios/Runner/Info.plist` and build with `--dart-define=GOOGLE_IOS_CLIENT_ID=<iOS client ID>`.
 3. Android: create an Android OAuth client with package `nl.careertracker.career_tracker` and your signing key's SHA-1.
 
@@ -199,4 +199,4 @@ The iOS app has been run and checked on the iOS Simulator. Not yet verified: And
 
 ---
 
-<p align="center"><sub>🖥️ Web app and backend: <a href="https://github.com/emelian-chkaira/nl-career-tracker">nl-career-tracker</a> · 📐 <a href="https://github.com/emelian-chkaira/nl-career-tracker/blob/main/PLAN.md">Design notes</a></sub></p>
+<p align="center"><sub>🖥️ Web app and backend: <a href="https://github.com/emelian-chkaira/ai-career-tracker">ai-career-tracker</a> · 📐 <a href="https://github.com/emelian-chkaira/ai-career-tracker/blob/main/PLAN.md">Design notes</a></sub></p>
