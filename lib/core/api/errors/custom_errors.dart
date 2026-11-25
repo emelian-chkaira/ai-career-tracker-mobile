@@ -6,6 +6,7 @@ enum ErrorType { badRequest, unauthorized, forbidden, notFound, conflict, valida
 class CustomDioException extends DioException {
   final ErrorType errorType;
   @override
+  // ignore: overridden_fields
   final String? message;
 
   CustomDioException(RequestOptions r, Response<dynamic>? response, this.errorType, [this.message]) : super(requestOptions: r, response: response);

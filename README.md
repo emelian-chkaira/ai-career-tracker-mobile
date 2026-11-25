@@ -3,6 +3,13 @@
 <h3 align="center">Your job hunt in your pocket: jobs from employers' own career pages <i>and</i> the big job boards,<br>ranked for you, saved to a pipeline, and linked to the replies in your inbox.</h3>
 
 <p align="center">
+  <a href="https://ai-career-tracker-gmwn.onrender.com"><img src="https://img.shields.io/badge/▶_Web_demo-0d6b63?style=for-the-badge&logo=render&logoColor=white" alt="Live web demo"></a>
+  <a href="https://emelianchkaira.netlify.app"><img src="https://img.shields.io/badge/Portfolio-1f5c9e?style=for-the-badge&logo=netlify&logoColor=white" alt="Portfolio website"></a>
+</p>
+
+<p align="center"><a href="https://github.com/emelian-chkaira/ai-career-tracker-mobile/actions/workflows/ci.yml"><img src="https://github.com/emelian-chkaira/ai-career-tracker-mobile/actions/workflows/ci.yml/badge.svg" alt="CI"></a></p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter">
   <img src="https://img.shields.io/badge/Dart_3-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart">
   <img src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iOS">
@@ -150,7 +157,7 @@ Every screen has a **loading / loaded / failed** state with a *Try again* action
 | **Links and files** | url_launcher · file_picker · path_provider · share_plus |
 | **Logging** | talker: readable network logs |
 | **Quality** | flutter_lints · `flutter analyze` · unit tests · GitHub Actions CI |
-| **Backend behind it** | Python · FastAPI · PostgreSQL 16 + pgvector · Playwright crawler · Gmail API · Docker, see the [web repo](https://github.com/emelian-chkaira/ai-career-tracker) |
+| **Backend behind it** | Python · FastAPI · PostgreSQL 16 + pgvector · Playwright crawler · Gmail API · Docker, deployed as a [live web demo](https://ai-career-tracker-gmwn.onrender.com) on Render with Neon Postgres, see the [web repo](https://github.com/emelian-chkaira/ai-career-tracker) |
 
 ## 🏅 Highlights
 
@@ -198,5 +205,7 @@ The iOS app has been run and checked on the iOS Simulator. Not yet verified: And
 </details>
 
 ---
+
+<p align="center"><sub>👤 Built by Emelian Chkaira: <a href="https://emelianchkaira.netlify.app">portfolio website</a></sub></p>
 
 <p align="center"><sub>🖥️ Web app and backend: <a href="https://github.com/emelian-chkaira/ai-career-tracker">ai-career-tracker</a> · 📐 <a href="https://github.com/emelian-chkaira/ai-career-tracker/blob/main/PLAN.md">Design notes</a></sub></p>
