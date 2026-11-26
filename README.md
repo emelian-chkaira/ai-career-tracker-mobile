@@ -1,6 +1,4 @@
-<h1 align="center">📱 AI Career Tracker · Mobile</h1>
-
-<h3 align="center">Your job hunt in your pocket: jobs from employers' own career pages <i>and</i> the big job boards,<br>ranked for you, saved to a pipeline, and linked to the replies in your inbox.</h3>
+<h1 align="center"><img src="docs/media/title.svg" width="100%" alt="AI Career Tracker: jobs and internships, with IND recognised sponsor badges for the Netherlands, straight from the source, from employers' own career pages and optional LinkedIn, Indeed, Glassdoor and Bayt searches"></h1>
 
 <p align="center">
   <a href="https://ai-career-tracker-gmwn.onrender.com"><img src="https://img.shields.io/badge/▶_Web_demo-0d6b63?style=for-the-badge&logo=render&logoColor=white" alt="Live web demo"></a>
